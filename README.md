@@ -65,9 +65,13 @@ NEXT_PUBLIC_API_URL=http://localhost:5000
 
 ### Server `.env` Example:
 ```
-PORT=5000
-DATABASE_URL=your_database_connection_string
-JWT_SECRET=your_jwt_secret
+DATABASE_HOST=localhost
+DATABASE_PORT=5432
+DATABASE_USER=postgres
+DATABASE_PASSWORD=postgres
+DATABASE_NAME=Test-Task
+JWT_SECRET=your_secret_key
+
 ```
 
 ## 📜 API Documentation
